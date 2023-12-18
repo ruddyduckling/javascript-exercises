@@ -1,6 +1,6 @@
 const repeatString = function(string, num) {
   let longerString = "";
-  if (num < 0) return longerString = "ERROR";
+  if (num < 0) return "ERROR";
   for (let i = 0 ; i < num ; i++) {
      longerString += string;
   }
